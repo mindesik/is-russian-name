@@ -8,5 +8,11 @@
   "license": "MIT",
   "dependencies": {
     "cyrillic-to-translit-js": "^3.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
   }
 }
