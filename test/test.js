@@ -8,6 +8,11 @@ describe('Main', function() {
     done()
   })
   
+  it('Dmitrii should return true', function(done) {
+    assert.equal(isRussianName('Dmitrii'), true)
+    done()
+  })
+  
   it('John should return false', function(done) {
     assert.equal(isRussianName('John'), false)
     done()
